@@ -1,12 +1,12 @@
 # Vue Example
 
-> This example shows the communication between components.
+> This example shows that how the components communicate each other.
 > * Passing data from parent to child components with Props.
-> * Sending notification from child to parent with Events.
+> * Sending notification from child to parent components with Events.
 > 
 > See a demo at [https://codesandbox.io/s/github/webther/Vue-Example-Components-Communication](https://codesandbox.io/s/github/webther/Vue-Example-Components-Communication)
 > 
-> <h5><i>Note: In a large application, we should use Vuex to manage the state instead of the default Props and Events.</i></h5> 
+> <h4><i>Note: In a large application, we should use Vuex to manage the state instead of the default Props and Events.</i></h4> 
 
 
 ## Build Setup
