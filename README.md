@@ -4,7 +4,7 @@
 > * Passing data from parent to child components with Props.
 > * Sending notification from child to parent components with Events.
 > 
-> See a demo at [https://codesandbox.io/s/github/webther/Vue-Example-Components-Communication](https://codesandbox.io/s/github/webther/Vue-Example-Components-Communication)
+> See a demo at [https://codesandbox.io/s/github/webther/Example-Vue-Components-Communication](https://codesandbox.io/s/github/webther/Example-Vue-Components-Communication)
 > 
 > <h4><i>Note: In a large application, we should use Vuex to manage the state instead of the default Props and Events.</i></h4> 
 
