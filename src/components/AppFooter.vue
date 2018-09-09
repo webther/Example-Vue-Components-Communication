@@ -7,7 +7,12 @@
 <script>
 export default {
   name: "AppFooter",
-  props: ['total']
+  props: {
+    'total': {
+      type: Number,
+      required: true
+    }
+  }
 };
 </script>
 

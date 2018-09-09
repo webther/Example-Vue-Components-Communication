@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <app-header :total="total"></app-header>
-    <app-counter v-on:increment="incrementTotal"></app-counter>
+    <app-counter :total="total" v-on:increment="incrementTotal"></app-counter>
     <app-footer :total="total"></app-footer>
 </div>
 </template>
@@ -20,7 +20,7 @@ export default {
   },
   data: function () {
     return {
-      total: 0
+      total: 10
     }
   },
   methods: {

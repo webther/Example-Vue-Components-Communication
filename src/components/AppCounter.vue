@@ -1,6 +1,6 @@
 <template>
   <div class="app-counter">
-    <button v-on:click="increment">Increase</button> 
+    <button v-on:click="increment">Increase</button>
     &nbsp;&nbsp;
     <span>Counter: {{ counter }}</span>
   </div>
@@ -9,9 +9,15 @@
 <script>
 export default {
   name: 'AppCounter',
+  props: {
+    'total': {
+      type: Number,
+      required: true
+    }
+  },
   data: function () {
     return {
-      counter: 0
+      counter: this.total
     }
   },
   methods: {
